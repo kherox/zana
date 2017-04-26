@@ -1,0 +1,35 @@
+{
+  "name": "zana",
+  "version": "0.0.1",
+  "description": "facebook messenger bot about agriculture",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "agriculture",
+    "messenger",
+    "facebook",
+    "bot",
+    "zana"
+  ],
+  "author": "kherox",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.2.0",
+    "body-parser": "^1.17.1",
+    "botly": "^1.4.0",
+    "dotenv-extended": "^1.0.4",
+    "ejs": "^2.5.6",
+    "ejs-mate": "^2.3.0",
+    "express": "^4.15.2",
+    "faker": "^4.1.0",
+    "mongoose": "^4.9.2",
+    "mongoose-geojson-schema": "^2.1.2",
+    "mongoose-search-plugin": "^0.1.2",
+    "morgan": "^1.8.1",
+    "node-geocoder": "^3.16.0",
+    "redis": "^2.7.1",
+    "request": "^2.81.0"
+  }
+}
