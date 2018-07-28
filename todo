@@ -1,0 +1,25 @@
+create user process 
+    *provider : facebook twitter google
+    generate unique number per user
+create product
+    *name
+    *quantity
+    *price
+    *description
+    *image
+    *categorie
+send order 
+    * owner
+    *product ref
+    *product quantity
+    *customer location
+    *quantity
+    * date
+add favorite
+    *product name
+
+facebook process user
+    *add product
+    *list product
+    *send orders
+    *orders list 
